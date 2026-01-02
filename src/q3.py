@@ -33,7 +33,7 @@ def income_tax_fed(income: int) -> float:
     """
     pass
 
-def income_tax_CA(income: int) -> float:
+def income_tax_ca(income: int) -> float:
     """Calculates the amount of state income tax paid by somebody who lives in California
     
     Parameters
@@ -48,7 +48,7 @@ def income_tax_CA(income: int) -> float:
     """
     pass
 
-def income_tax_MA(income: int) -> float:
+def income_tax_ma(income: int) -> float:
     """Calculates the amount of state income tax paid by somebody who lives in Massachusetts
     
     Parameters
@@ -63,7 +63,7 @@ def income_tax_MA(income: int) -> float:
     """
     pass
 
-def income_tax_NY(income: int) -> float:
+def income_tax_ny(income: int) -> float:
     """Calculates the amount of state income tax paid by somebody who lives in New York state
     
     Parameters
@@ -86,4 +86,3 @@ def calculate_income_tax() -> None:
     4. Handle invalid unit inputs gracefully
     """
     pass
-

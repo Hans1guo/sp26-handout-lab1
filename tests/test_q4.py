@@ -2,7 +2,6 @@
 
 import sys
 sys.path.append(".")
-
-from src.q4 import most_common_letter
-
 import unittest
+from unittest.mock import patch, Mock
+from src.q4 import most_common_letter

@@ -2,7 +2,6 @@
 
 import sys
 sys.path.append(".")
-
-from src.q2 import set_password
-
 import unittest
+from unittest.mock import patch, Mock
+from src.q2 import set_password

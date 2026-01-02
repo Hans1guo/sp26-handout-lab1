@@ -10,10 +10,10 @@ def validate_password(password: str) -> bool:
 
     Requirements:
     1. Password must be at least 8 characters long
-    2. Must contain at least one uppercase letter
-    3. Must contain at least one lowercase letter
-    4. Must contain at least one digit
-    5. Must contain at least one special character (!@#$%^&*)
+    2. Password must contain at least one uppercase letter
+    3. Password must contain at least one lowercase letter
+    4. Password must contain at least one digit
+    5. Password must contain at least one special character (!@#$%^&*)
 
     
     Parameters
@@ -27,4 +27,3 @@ def validate_password(password: str) -> bool:
         True if the password is valid, and false otherwise
     """
     pass
-
