@@ -31,6 +31,7 @@ def income_tax_fed(income: int) -> float:
     float
         The amount of federal income tax they pay
     """
+    
     pass
 
 def income_tax_ca(income: int) -> float:

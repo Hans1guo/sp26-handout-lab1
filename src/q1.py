@@ -15,7 +15,6 @@ def validate_password(password: str) -> bool:
     4. Password must contain at least one digit
     5. Password must contain at least one special character (!@#$%^&*)
 
-    
     Parameters
     ----------
     password : str
@@ -26,4 +25,30 @@ def validate_password(password: str) -> bool:
     bool
         True if the password is valid, and false otherwise
     """
+    special_character = "!@#$%^&*"
+    valid = True
+    
+    if len(password) < 8:
+        print("Password must be at least 8 characters long")
+        valid = False
+    
+    if not any(c.isupper() for c in password):
+        print("Password must contain at least one uppercase letter") 
+        valid = False 
+    
+    if not any(c.islower() for c in password):
+        print("Password must contain at least one lowercase letter")
+        valid = False
+
+    if not any(c.isdigit() for c in password):
+        print("Password must contain at least one digit")
+        valid = False
+
+    if not any(c in special_character for c in password):
+        print("Password must contain at least one special character (!@#$%^&*)")
+        valid = False
+
+    return valid
     pass
+
+
