@@ -14,12 +14,10 @@ def validate_password(password: str) -> bool:
     3. Password must contain at least one lowercase letter
     4. Password must contain at least one digit
     5. Password must contain at least one special character (!@#$%^&*)
-
     Parameters
     ----------
     password : str
         The password to validate
-    
     Returns
     -------
     bool
